@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./Pokedex.CSS">
+</head>
+<body>
+    <div class="Pokedex">
+        <div class="titulo">
+           <h1 >Pokedex</h1>
+        </div>
+            <br>
+
+            <div class="arriba">
+                <div class="pantallaA">
+                    <br>
+                    <input type="text" placeholder="Pikachu" id="pokeName" name="pokeName">
+                    <button onclick="fetchpokemon()" > Mostrar Pokemon </button> <br> <br>
+                    <a class="n">Nombre:</a>
+                    <a id="nombre" class="n"></a> <br> <br>
+                    <div class="img">
+                        <img src="./IMGS/Pokebola.png" alt="pokeImg" width="115px" id="pokeImg"> <br> <br>
+                    </div>
+            
+                    <a class="t">Tipo:</a>
+                    <a id="tipo" class="t"></a>
+            </div>
+                </div>
+
+                <br>
+
+            <div class="abajo">
+                <div class="mov">
+                    <div class="mov2"></div>
+                </div>
+                <div class="PantallaB">
+
+                    <h4 class="e">Estadisticas:</h4>
+                    <a id="nivels0_0" class="e">hp</a>
+                    <a id="nivels0" class="e"></a> <br>
+                    <a id="nivels1_1" class="e">attack</a>
+                    <a id="nivels1" class="e"></a> <br>
+                    <a id="nivels2_2" class="e">defense</a>
+                    <a id="nivels2" class="e"></a> <br>
+                    <a id="nivels3_3" class="e">special attack</a>
+                    <a id="nivels3" class="e"></a> <br>
+                    <a id="nivels4_4" class="e">special defense</a>
+                    <a id="nivels4" class="e"></a> <br>
+                    <a id="nivels5_5" class="e">speed</a>
+                    <a id="nivels5" class="e"></a> <br>
+                </div>
+                <div class="PantallaB2">
+                    <h4 class="m">Movimientos:</h4>
+                    <a id="move0" class="m"></a> <br>
+                    <a id="move1" class="m"></a> <br>
+                    <a id="move2" class="m"></a> <br>
+                </div>
+
+                <div class="btn1"></div>
+                <div class="btn2"></div>
+            </div>
+        
+    </div>
+</body>
+<footer><script src="./Pokedex.JS"></script></footer>
+</html>

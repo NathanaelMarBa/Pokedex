@@ -1,0 +1,126 @@
+.titulo{
+    width: 1351px;
+    height: 35px;
+    background-color: brown;
+    text-align: center;
+    font-style: italic;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.Pokedex{
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.nivels nivels1{
+    display: inline;
+    background-color: aqua;
+}
+
+.arriba, .abajo{
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 630px;
+    height: 380px;
+    background-color: rgb(223, 12, 12);
+    border-style:groove;
+    border-radius: 0.3px 0.3px 0.3px 0.3px;
+    border-color: black;
+    display: flex;
+}
+.pantallaA{
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color:rgb(255, 255, 255);
+    border-style: double;
+    border-color: black;
+    width: 430px;
+    height: 280px;
+}
+
+.PantallaB{
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color:rgb(255, 255, 255);
+    border-style: double;
+    border-color: black;
+    width: 215px;
+    height: 280px;
+}
+
+.PantallaB2{
+    margin-top: 50px;
+    margin-left: 10px;
+    background-color:rgb(255, 255, 255);
+    border-style: double;
+    width: 215px;
+    height: 280px;
+}
+
+.img{
+    text-align: center;
+}
+
+.t, .n, .e, .m{
+    color: black;
+    text-align: left;
+    font-size: large;
+    font-style:unset;
+}
+
+body{
+    background-image: url(./IMGS/Fondo.jpg);
+    background-size: 100% 100%;
+}
+
+a, h1, h4{
+    color: aliceblue;
+}
+
+.btn1 {
+    margin-top: 180px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border-color: rgb(17, 17, 17);
+    border-style:inset;
+    background: #5cb85c;
+}
+
+.btn2 {
+    margin-top: 155px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border-color: rgb(17, 17, 17);
+    border-style:inset;
+    background: #5cb85c;
+}
+
+.mov{
+    width: 100px;
+    height: 280px;
+    margin-top: 150px;
+    margin-left: 25px;
+    width: 20px; 
+    height: 60px; 
+    border: 3px solid rgb(0, 0, 0);
+    background: #000000;
+}
+
+.mov2{
+    margin-top: 20px;
+    margin-left: -23px;
+    width: 60px; 
+    height: 20px; 
+    border: 3px solid rgb(0, 0, 0);
+    background: #000000;
+}
